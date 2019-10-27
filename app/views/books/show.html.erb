@@ -1,0 +1,4 @@
+<div><span>title: </span><%= @book.title %></div>
+<div><span>body: </span><%= @book.body %></div>
+<br>
+<%= link_to 'Edit', edit_book_path(@book.id) %>｜<%= link_to 'Back', books_path %>
